@@ -1,0 +1,40 @@
+@import "/src/assets/scss/utils.scss";
+
+:host {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px;
+}
+
+.login-container {
+  width: 90%;
+}
+
+mat-card {
+  border: 1px solid #3598db;
+  box-shadow: unset !important;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  font-size: 13px;
+  color: $error;
+}
+
+.log-in {
+  width: 100%;
+}
+
+.protocol {
+  min-width: unset;
+}

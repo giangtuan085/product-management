@@ -1,0 +1,14 @@
+$primary-color: #3598db;
+$border: #a6a8ab;
+$error: #f44336;
+.flex {
+    display: flex;
+}
+
+.mat-raised-button {
+    background-color: $primary-color !important;
+}
+
+.mat-raised-button.cancel {
+    background-color: #fff !important;
+}
